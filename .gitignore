@@ -1,2 +1,8 @@
-# bin フォルダは要らない
-# .idea/
+# ipython関係
+.idea/
+.DS_Store
+.ipynb_checkpoints/
+
+# emacsで開くと残ってしまうときがある
+README.md~
+.gitignore~
