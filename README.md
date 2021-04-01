@@ -9,10 +9,10 @@
 
 ### 1. データベースの作成
 1_クロール、スクレイプ、データ格納.ipynb
-- ボートレースのデータを日付ごとにpickleファイルでcrawledDataフォルダに保存
+- ボートレースのデータを日付ごとにpickleファイルでdata/crawledDataフォルダに保存
 
 2_データ前処理（共通部分).ipynb
--  crawledDataフォルダに格納されたファイルを一つのdfにまとめ、arrangedDataフォルダに保存
+-  crawledDataフォルダに格納されたファイルを一つのdfにまとめ、data/arrangedDataフォルダに保存
 - この際、データ分析に使えるよう、各列のデータタイプや値などを整理・調整
 
 ### 2. データ解析
